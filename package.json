@@ -1,10 +1,12 @@
 {
   "name": "romance",
   "private": true,
-  "homepage": "https://github.com/Jozona/react-design.git",
+  "homepage": "https://jozona.github.io/react-design/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
