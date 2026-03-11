@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/Awwwwwawa/", // IMPORTANTE: barra al inicio y al final
+  base: "/Awwwwwawa/", // ← Esto es OBLIGATORIO para GitHub Pages
   build: {
     outDir: "dist",
     assetsDir: "assets",
